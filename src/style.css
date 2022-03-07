@@ -6,9 +6,11 @@
   .slide-container {
     direction: ltr;
     width: 90%;
-
+    border-radius: 5px;
     margin-top: 10px;
     margin: auto;
+    box-sizing: content-box;
+    box-shadow: 2px 2px 2px 2px black, 2px 3px red;
   }
   .each-slide > div {
     display: flex;
@@ -50,5 +52,8 @@
   }
   .react-slideshow-container + div.indicators > div:last-of-type {
     margin-right: 10px;
+  }
+  .each-slide:hover{
+    opacity: 2.3;
   }
   

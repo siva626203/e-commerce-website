@@ -23,7 +23,7 @@ const properties = {
 const SlideShow = () => {
   return (
     <>
-      <h2>Department Programs</h2>
+     <center> <h2 class="slide-head">Department Programs</h2> </center>
       <div className="slide-container">
         <Slide {...properties}>
           <div className="each-slide">

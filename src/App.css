@@ -10,13 +10,33 @@
   color: aliceblue
 }
 
-Link {
- text-decoration: none!important;;
- text-decoration-style: none;
- font-size: 30px;
- color: aqua;
- text-underline-offset: none;
- font-style: inherit;
+.slide-head{
+    background-color: darkslategrey;
+    color: rgb(224, 148, 49);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    text-overflow: clip;
+    text-decoration-line: inherit;
+    outline-color: black;
+    text-decoration: double;
+    text-shadow: 2px 2px 4px red,2px 2px 3px blue;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline-style: double;
+    outline-width: 10px;
+    user-zoom: 50px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(167, 123, 123));
+  }
+  .error {
+    text-align: center;
+    padding: 200px;
+    margin-bottom: 100px;
+    padding-bottom: 80px;
 
-}
+  }
+  
+
+
 

@@ -3,12 +3,15 @@ import { Card,CardGroup } from 'react-bootstrap';
 import {Link,Routes,Route} from 'react-router-dom';
 import '../App.css';
 import '../style.css'
+
+import I3 from '../images/3.jpg';
+import I4 from '../images/4.jpg'; 
 class Student extends Component{
     render(){
         return(
             <CardGroup>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={I3} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -21,7 +24,7 @@ class Student extends Component{
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={I3} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -34,7 +37,7 @@ class Student extends Component{
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={I4} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
