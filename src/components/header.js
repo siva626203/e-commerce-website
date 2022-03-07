@@ -26,7 +26,9 @@ class  Header extends Component{
           <NavDropdown.Item as={Link} to="/student">Students achievement</NavDropdown.Item>
           <Nav.Link as={Link} to="/e-commerce-website">About</Nav.Link>
         </NavDropdown>
-        
+        <Nav.Link as={Link} to="/register">Register</Nav.Link>
+        <Nav.Link as={Link} to="/login">Login</Nav.Link> 
+        <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>

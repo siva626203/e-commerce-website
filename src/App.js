@@ -6,6 +6,7 @@ import Error from './pages/err';
 import { BrowserRouter,Routes,Route,Link} from 'react-router-dom';
 import Body from './components/body';
 import { Fragment } from 'react';
+import Register from './pages/register';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       
       
       <Routes>
-
+        <Route path='/register' element={<Register />}></Route>
         <Route path='/e-commerce-website' exact element={<Slideshow />}></Route>
         <Route path='*' element={<Error />} />
         <Route path='/staff' element={<Body />}></Route>
