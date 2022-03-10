@@ -3,9 +3,8 @@ import Header from './components/header';
 import Slideshow from './components/slide';
 import Student from './pages/home';
 import Error from './pages/err';
-import { BrowserRouter,Routes,Route,Link} from 'react-router-dom';
+import { Routes,Route} from 'react-router-dom';
 import Body from './components/body';
-import { Fragment } from 'react';
 import Register from './pages/register';
 
 function App() {

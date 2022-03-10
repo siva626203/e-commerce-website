@@ -1,9 +1,9 @@
-import { Fragment } from "react";
-import {Navbar,Card,Container,Nav,NavDropdown,Alert, Button, Carousel, Collapse, Dropdown, Modal, Offcanvas, Popover, ScrollSpy, Tab, Toast, Tooltip} from 'react-bootstrap';
+
+import {Card} from 'react-bootstrap';
 import React, {Component} from 'react';
 import Banner from '../images/1.jpg';
 import 'react-slideshow-image/dist/styles.css'
-import { Slide } from 'react-slideshow-image';
+
 class Body extends Component{       
 render(){
            return (

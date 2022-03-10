@@ -1,6 +1,5 @@
-import { Fragment } from 'react';
 import {Link} from 'react-router-dom';
-import {Navbar,Container,Nav,NavDropdown,Alert, Button, Carousel, Collapse, Dropdown, Modal, Offcanvas, Popover, ScrollSpy, Tab, Toast, Tooltip} from 'react-bootstrap';
+import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import React, {Component} from 'react';
 
 class  Header extends Component{
@@ -21,9 +20,9 @@ class  Header extends Component{
         <Nav.Link as={Link} to="/faculty">Faculty</Nav.Link>
         <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
         <Nav.Link as={Link} to="/department">Department Activities</Nav.Link>
-        <NavDropdown title="Achievments" id="basic-nav-dropdown">
-          <NavDropdown.Item as={Link} to="/staff">Staff achievement</NavDropdown.Item>
-          <NavDropdown.Item as={Link} to="/student">Students achievement</NavDropdown.Item>
+        <NavDropdown title="Achievements" id="basic-nav-dropdown">
+          <NavDropdown.Item as={Link} to="/staff">Staff Achievement</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/student">Students Achievement</NavDropdown.Item>
           <Nav.Link as={Link} to="/e-commerce-website">About</Nav.Link>
         </NavDropdown>
         <Nav.Link as={Link} to="/register">Register</Nav.Link>
