@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 *{
  padding: 0%;
  margin: 0%;
@@ -24,6 +25,7 @@
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    text-shadow: 2px 2px 4px red,2px 2px 3px blue;
     outline-style: double;
     outline-width: 10px;
     user-zoom: 50px;
@@ -36,7 +38,33 @@
     padding-bottom: 80px;
 
   }
-  
-
-
+.brand {
+  background-color: aqua;
+  font-size: 20px;
+  border-radius: 10px;
+  text-shadow: 2px green;
+  outline-style: groove;
+  outline-width: 10px;
+  text-shadow: 2px 2px 4px red,2px 2px 3px blue;
+  font-style: initial;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dropdown:hover{
+  box-sizing: border-box;
+  color: aqua;
+  text-shadow: 2px 1px 2px greenyellow;
+}
+.icon{
+  margin-bottom: 8px;
+  margin-right: 2px;
+}
+.icon-m{
+  size: 20px;
+  margin-right: 2px;
+}
+.rl{
+  text-align: right;
+  display: flex;
+}
 
