@@ -67,4 +67,8 @@
   text-align: right;
   display: flex;
 }
+.form-r{
+  padding: 100px;
+  background-image: repeating-linear-gradient(to left,rgb(76, 153, 160),rgb(176, 206, 199));
+}
 

@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import '../App.css';
 import { Form,Button } from 'react-bootstrap';
+
 class Register extends Component{
-    render(){
+
+  render(){
         return(
         <div>
-        <Form>
+        <Form className="form-r">
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
@@ -18,6 +20,14 @@ class Register extends Component{
     <Form.Label>Password</Form.Label>
     <Form.Control type="password" placeholder="Password" />
   </Form.Group>
+  <Form.Group>
+  <Form.Label>ReEnter-Password</Form.Label>
+    <Form.Control type="password" placeholder="ReEnter-Password" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="formBasicPassword">
+    <Form.Label>Enter OTP</Form.Label>
+    <Form.Control type="password" placeholder="otp" />
+  </Form.Group>
   <Form.Group className="mb-3" controlId="formBasicCheckbox">
     <Form.Check type="checkbox" label="Check me out" />
   </Form.Group>
@@ -26,7 +36,7 @@ class Register extends Component{
   </Button>
 </Form>
 </div>
-        );
+);
     }
 }
 export default Register;

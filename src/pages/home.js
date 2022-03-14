@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Card,CardGroup } from 'react-bootstrap';
-import {Link,Routes,Route} from 'react-router-dom';
 import '../App.css';
 import '../style.css'
 
@@ -10,44 +9,40 @@ class Student extends Component{
     render(){
         return(
             <CardGroup>
-  <Card>
+  <Card className="card-s">
     <Card.Img variant="top" src={I3} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>SIVAKUMAR</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+      Bsc(IT)-1Y<br/>Web Developer
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">A11UIT027</small>
     </Card.Footer>
   </Card>
   <Card>
     <Card.Img variant="top" src={I3} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>SAM STANLY</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+      Bsc(IT)-1Y<br/>App Developer
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">A11UIT026</small>
     </Card.Footer>
   </Card>
   <Card>
     <Card.Img variant="top" src={I4} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Others</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+      Bsc(IT)-1Y<br/>Multiroles
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">A11UIT01-29</small>
     </Card.Footer>
   </Card>
 </CardGroup>

@@ -6,6 +6,9 @@ import Error from './pages/err';
 import { Routes,Route} from 'react-router-dom';
 import Body from './components/body';
 import Register from './pages/register';
+import Faculty from './pages/faculty';
+import Gallery from './pages/gallery';
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
         <Route path='*' element={<Error />} />
         <Route path='/staff' element={<Body />}></Route>
          <Route path='/student' element={<Student />} />
+         <Route path='/faculty' element={<Faculty />} />
+         <Route path='/gallery' element={<Gallery />}/>
       </Routes>
       
       
