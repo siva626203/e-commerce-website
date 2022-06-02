@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path='/register' element={<Register />}></Route>
         <Route path='/e-commerce-website' exact element={<Slideshow />}></Route>
-        <Route path='*' element={<Error />} />
+        <Route path='*/' element={<Error />} />
         <Route path='/staff' element={<Body />}></Route>
          <Route path='/student' element={<Student />} />
          <Route path='/faculty' element={<Faculty />} />
